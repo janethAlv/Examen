@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<form>
+  				Nombre Articulo:
+  					<input type="text" name="nombre" id="nombre"/>
+  					<br>
+  				Nombre Nuevo del Articulo:
+  					<input type="text" name="nombreN" id="nombreN"/>
+  					<br>
+  				Nombre Categoria:
+  					<input type="text" name="nombrec" id="nombrec"/>
+  					<br>
+  				Nombre Nuevo de la Categoria:
+  					<input type="text" name="nombreNC" id="nombreNC"/>
+  					<br>
+  					
+  					<input type="submit" name="btn" id="btn" value="Guardar" />
+  					<hr>
+  					</form>
+                #{if a}
+				<h1>El articulo se a cambiado exitosamente</h1>
+				#{/if}
+				#{if ca}
+				<h1>la categoria se a cambiado exitosamente</h1>
+				#{/if}
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<form >
+		Nombre Articulo:
+		<input type="text" name="nombre" id="nombre"/>
+		<br>
+		Cantidad:
+		<input type="int" name="canti" id="canti"/>
+		<br>
+		
+		Nombre Categoria:
+		<input type="text" name="nombrec" id="nombrec"/>
+		<br>
+		Descripcion:
+		<input type="text" name="descrip" id="descrip"/>
+		<br>
+		
+		<input type="submit" name="btn" id="btn" value="Guardar" />
+  					<hr>
+  					</form>
+                #{if a}
+				<h1>El articulo se guardo exitosamente </h1>
+				#{/if}
+				
+				 #{if ca}
+				<h1>La categoria se a guardado</h1>
+				#{/if}
+
+	</form>
+</body>
+</html>
